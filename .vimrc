@@ -64,6 +64,8 @@ nmap <C-t> :NERDTreeToggle<RETURN>
 " Setup Vundle
 " git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 "
+" PyFlakes
+" remember to run pip install pyflakes
 " Vundle config
 set nocompatible               " be iMproved
 filetype off                   " required!
@@ -78,13 +80,13 @@ Bundle 'gmarik/vundle'
 " " My Bundles here:
 Bundle 'surround.vim'
 Bundle 'Syntastic'
-Bundle 'pep8'
 Bundle 'taglist.vim'
 Bundle 'ctags.vim'
 " " original repos on github
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails.git'
+Bundle 'pyflakes'
 " " vim-scripts repos
 " Bundle 'L9'
 " Bundle 'FuzzyFinder'
